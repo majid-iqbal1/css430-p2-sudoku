@@ -1,0 +1,23 @@
+# Run teh script as needed
+name: Runner 😀
+
+on:
+    workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build and Run 💻
+    steps:
+      ###########################
+      #         Checkout        #
+      ###########################
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      ###########################
+      #         Build/Run       #
+      ###########################
+      - name: Run sudoku validator
+        run: chmod 755 runit.sh; ./runit.sh
+
