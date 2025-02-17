@@ -1,0 +1,8 @@
+Can verify whether it is valid or not - 10/10
+Starts/joins multiple threads to speedup operation - 5/5
+For NxN complete puzzle, can verify whether it is valid or not - 5/5
+Using a minimum of 3 threads - 5/5 
+Bonus: Can complete puzzles - 2/2
+Bonus: Can complete difficult puzzles - 0/3
+
+Total: 27 
